@@ -1,1 +1,2 @@
-# Python-101
+# Python 101
+repository for Python practice before school
