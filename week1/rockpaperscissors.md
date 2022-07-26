@@ -44,6 +44,15 @@ print("Your name is ")
 print(name)
 ```
 
-Before continuing, do the following:
+### Get VSCode ready
+Before continuing, let's make sure your VS Code is setup for what we will be doing next:
 1. Open Visual Studio Code
-2. At the bottom 
+2. At the bottom of VS Code, check to see if you're on the main branch (it will say `main`)
+![Branch at the bottom of the VSCode window](../assets/main-branch-pull.png)
+3. If it doesn't say main, check to see if you have any pending commits. If you do, you will have a number on the Source Control tab:
+![Source control with a notification showing uncommitted changes](../assets/uncommitted-changes.png)
+4. If you have uncommitted changes, click into the Source Control pane, type a message at the top of the pane, click the check mark button.
+5. Then press Sync Changes
+click on the name of the branch and when the branch chooser pops up, click `main`
+![Branch choosing window in VSCode](../assets/main-branch-selection.png)
+4. Click on the arrow circle to pull down changes. 
