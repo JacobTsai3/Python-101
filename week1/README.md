@@ -51,15 +51,15 @@ Before continuing, let's make sure your VS Code is setup for what we will be doi
 ![Branch at the bottom of the VSCode window](../assets/main-branch-pull.png)
 3. If it doesn't say main, check to see if you have any pending commits. If you do, you will have a number on the Source Control tab:  
 ![Source control with a notification showing uncommitted changes](../assets/uncommitted-changes.png)
-4. If you have uncommitted changes, click into the Source Control pane, type a message at the top of the pane, click the check mark button. Then press Sync Changes.
+4. If you have uncommitted changes, click into the Source Control pane, type a message at the top of the pane, click the check mark button. Then press Sync Changes.  
 ![Source Control panel open in VS Code with a commit in progress](../assets/commit-view.png)
-5. After you have synced your changes, you should no longer have a notification on the Source Control button. 
+5. After you have synced your changes, you should no longer have a notification on the Source Control button.   
 6. At the bottom of VSCode again, click on the name of the branch and when the branch chooser pops up, click `main`
 ![Branch choosing window in VSCode](../assets/main-branch-selection.png)
-7. Click on the arrow circle to pull down changes. 
+7. Click on the arrow circle to pull down changes.  
 ![Branch at the bottom of VSCode window](../assets/main-pull-changes.png)
 
-Your File Explorer pane should now look like this:
+Your File Explorer pane should now look like this:  
 ![The File Explorer in VSCode](../assets/file-explorer-ready.png)
 
 Click on the `week1` folder and then add a new file by clicking on the paper with the `+` on it at the top of the File Explorer pane.
