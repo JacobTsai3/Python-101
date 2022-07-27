@@ -1,5 +1,7 @@
 import random
 
+age_val=0
+
 min_val=1
 
 max_val=100
@@ -22,6 +24,6 @@ print(favorite_number)
 
 print("I predict your age to be")
 
-age = random.randint(min_val, max_val)
+age_val = random.randint(min_val, max_val)
 
-print(age)
+print(age_val)
