@@ -1,9 +1,12 @@
 import random
 
+# Create a variable to track the value of my age
 age_val=0
 
+# Create a variable to track minimum value of my age
 min_val=1
 
+# Create a variable to track maximum value of my age
 max_val=100
 
 # `name` has the value "Jacob", which is of type String
@@ -24,6 +27,8 @@ print(favorite_number)
 
 print("I predict your age to be")
 
+# Create a random number between min_val and max_val
 age_val = random.randint(min_val, max_val)
 
+# Print the value of my age
 print(age_val)
