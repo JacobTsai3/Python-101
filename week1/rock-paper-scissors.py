@@ -9,3 +9,7 @@ print("Your name is ")
 
 # A function `print` is called, with the parameter `name`, which has the value "Jacob" is passed in
 print(name)
+
+print("Your favorite number is")
+
+print(favorite_number)
