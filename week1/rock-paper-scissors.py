@@ -1,3 +1,9 @@
+import random
+
+min_val=1
+
+max_val=100
+
 # `name` has the value "Jacob", which is of type String
 name = input("What is your name?")
 
@@ -16,3 +22,6 @@ print(favorite_number)
 
 print("I predict your age to be")
 
+age = random.randint(min_val, max_val)
+
+print(age)
