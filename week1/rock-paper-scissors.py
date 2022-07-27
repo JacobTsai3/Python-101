@@ -1,8 +1,8 @@
 # `name` has the value "Jacob", which is of type String
-name = "Jacob"
+name = input("What is your name?")
 
 # `favorite_number` has the value 13, which is of type integer, often called int
-favorite_number = 13
+favorite_number = input("What is your favorite number?")
 
 # A function `print` is called, with the parameter "Your name is " is passed in
 print("Your name is ")
