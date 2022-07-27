@@ -13,3 +13,6 @@ print(name)
 print("Your favorite number is")
 
 print(favorite_number)
+
+print("I predict your age to be")
+
