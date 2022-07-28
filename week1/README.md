@@ -198,3 +198,7 @@ Your name is Sarah and your favorite number is 13
 I predict your age to be 4
 ```
 Where 4 is random every time this program runs. 
+
+# Day 2 Homework
+
+Finish 
