@@ -54,4 +54,4 @@ if operation == "multiply":
 if operation == "divide":
     number1 = input("Give me the first number to divide ")
     number2 = input("How much would you like to divide by? ")
-    multiply (int(number1), int(number2))
+    divide (int(number1), int(number2))
