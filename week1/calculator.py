@@ -44,7 +44,6 @@ if operation == "add":
     number2 = input("Give me the second number to add ")
     add (int(number1), int(number2))
 
-
 if operation == "subtract":
     number1 = input("Give me a number to subtract from ")
     number2 = input("How much would you like to subtract? ")
