@@ -28,8 +28,12 @@ def divide(number1, number2) :
     quotient = number1 / number2
     print (number1, "divided by", number2, "=", quotient)
 
+def destroy(number) :
+    amount = print ("undefined")
+    print (number1, "destroyed =", amount)
+
 print("Welcome to my calculator!")
-operation = input("Choose an operation: add, subtract, multiply, divide, negate: ")
+operation = input("Choose an operation: add, subtract, multiply, divide, negate, destroy: ")
 
 if operation == "negate":
     value1 = input("Give me a number to negate ")
@@ -55,3 +59,7 @@ if operation == "divide":
     number1 = input("Give me the first number to divide ")
     number2 = input("How much would you like to divide by? ")
     divide (int(number1), int(number2))
+
+if operation == "destroy":
+    value1 = input("Give me a number to destroy ")
+    destroy (int(value1))
