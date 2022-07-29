@@ -29,8 +29,8 @@ def divide(number1, number2) :
     print (number1, "divided by", number2, "=", quotient)
 
 def destroy(number) :
-    amount = print ("undefined")
-    print (number1, "destroyed =", amount)
+    amount = ((number*0)/0)
+    print (number1, "diestroyed =", amount)
 
 print("Welcome to my calculator!")
 operation = input("Choose an operation: add, subtract, multiply, divide, negate, destroy: ")
