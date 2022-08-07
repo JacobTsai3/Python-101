@@ -58,12 +58,12 @@ def setupBaseball():
 
 def setupTennis():
     tennis_teams_data = [ 
-                            [ ["Duckworth", "Kygrios", "Minaur"], "tennis", "Team", 0, "Australia"],
-                            [ ["Medvedev", "Rublev", "Khachanov"], "tennis", "Team", 0, "Russia"],
-                            [ ["Fritz", "Opelka", "Tiafoe"], "tennis", "Team", 0, "USA"],
-                            [ ["Nadal", "Alcaraz", "Bautista"], "tennis", "Team", 0, "Spain"],
-                            [ ["Zverev", "Otte", "Altmaier"], "tennis", "Team", 0, "Germany"],
-                            [ ["Djokovic", "Kecmanovic", "Krajinovic"], "tennis", "Team", 0, "Serbia"]
+                            [ ["Duckworth", "Kygrios", "Minaur"], "tennis", "Australia", 0, "Team"],
+                            [ ["Medvedev", "Rublev", "Khachanov"], "tennis", "Russia", 0, "Team"],
+                            [ ["Fritz", "Opelka", "Tiafoe"], "tennis", "USA", 0, "Team"],
+                            [ ["Nadal", "Alcaraz", "Bautista"], "tennis", "Spain", 0, "Team"],
+                            [ ["Zverev", "Otte", "Altmaier"], "tennis", "Germany", 0, "Team"],
+                            [ ["Djokovic", "Kecmanovic", "Krajinovic"], "tennis", "Serbia", 0, "Team"]
                         ]
 
     tennis_teams = []
@@ -82,7 +82,7 @@ def setupTennis():
 def setupSoccer():
     soccer_teams_data = [ 
                             [ ["Son", "Harry", "Pierre"], "soccer", "Tottenham", 0, "Hotspurs"],
-                            [ ["Kylian", "Lionel", "Neymar"], "soccer", "Paris", 0, "Saint-Germain"],
+                            [ ["Kylian", "Lionel", "Neymar"], "soccer", "Paris Saint-Germain", 0, "FC"],
                             [ ["Mohammed", "Virgil", "Joel"], "soccer", "Liverpool", 0, "FC"],
                             [ ["Alphonso", "Sadio", "Noussair"], "soccer", "Bayern Munich", 0, "FC"],
                             [ ["Bruno", "Christiano", "Marcus"], "soccer", "Manchester United", 0, "FC"],
