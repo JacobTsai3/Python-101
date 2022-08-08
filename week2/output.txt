@@ -1,0 +1,210 @@
+Adding the Nets to basketball
+Adding the Knicks to basketball
+Adding the Lakers to basketball
+Adding the Rockets to basketball
+Adding the Mavericks to basketball
+Adding the Magic to basketball
+The Nets from Brooklyn is ranked 0 in basketball.
+Roster:
+Kevin
+Kyrie
+Ben
+
+The Knicks from NY is ranked 0 in basketball.
+Roster:
+Quentin
+Julius
+Jalen
+
+The Lakers from Los Angeles is ranked 0 in basketball.
+Roster:
+LeBron
+Russell
+Anthony
+
+The Rockets from Houston is ranked 0 in basketball.
+Roster:
+Jalen
+Jabari
+Kevin
+
+The Mavericks from Dallas is ranked 0 in basketball.
+Roster:
+Luka
+Boban
+Spencer
+
+The Magic from Orlando is ranked 0 in basketball.
+Roster:
+Paolo
+Bol
+Mohamed
+
+Adding the Padres to baseball
+Adding the Dodgers to baseball
+Adding the Rays to baseball
+Adding the Orioles to baseball
+Adding the Braves to baseball
+Adding the Yankees to baseball
+The Padres from San Diego is ranked 0 in baseball.
+Roster:
+Fernando
+Jurickson
+Juan
+
+The Dodgers from Los Angeles is ranked 0 in baseball.
+Roster:
+Mookie
+Freddie
+Clayton
+
+The Rays from Tampa Bay is ranked 0 in baseball.
+Roster:
+Randy
+Brandon
+Yandy
+
+The Orioles from Baltimore is ranked 0 in baseball.
+Roster:
+Jorge
+Cedric
+Roughned
+
+The Braves from Atlanta is ranked 0 in baseball.
+Roster:
+Ronald
+Dansby
+Kenley
+
+The Yankees from NY is ranked 0 in baseball.
+Roster:
+Aaron
+Gerrit
+Aroldis
+
+Adding the Team to tennis
+Adding the Team to tennis
+Adding the Team to tennis
+Adding the Team to tennis
+Adding the Team to tennis
+Adding the Team to tennis
+The Team from Australia is ranked 0 in tennis.
+Roster:
+Duckworth
+Kygrios
+Minaur
+
+The Team from Russia is ranked 0 in tennis.
+Roster:
+Medvedev
+Rublev
+Khachanov
+
+The Team from USA is ranked 0 in tennis.
+Roster:
+Fritz
+Opelka
+Tiafoe
+
+The Team from Spain is ranked 0 in tennis.
+Roster:
+Nadal
+Alcaraz
+Bautista
+
+The Team from Germany is ranked 0 in tennis.
+Roster:
+Zverev
+Otte
+Altmaier
+
+The Team from Serbia is ranked 0 in tennis.
+Roster:
+Djokovic
+Kecmanovic
+Krajinovic
+
+Adding the Hotspurs to soccer
+Adding the FC to soccer
+Adding the FC to soccer
+Adding the FC to soccer
+Adding the FC to soccer
+Adding the FC to soccer
+The Hotspurs from Tottenham is ranked 0 in soccer.
+Roster:
+Son
+Harry
+Pierre
+
+The FC from Paris Saint-Germain is ranked 0 in soccer.
+Roster:
+Kylian
+Lionel
+Neymar
+
+The FC from Liverpool is ranked 0 in soccer.
+Roster:
+Mohammed
+Virgil
+Joel
+
+The FC from Bayern Munich is ranked 0 in soccer.
+Roster:
+Alphonso
+Sadio
+Noussair
+
+The FC from Manchester United is ranked 0 in soccer.
+Roster:
+Bruno
+Christiano
+Marcus
+
+The FC from Manchester City is ranked 0 in soccer.
+Roster:
+Erling
+Kevin
+Ilkay
+
+Adding the Cowboys to football
+Adding the Chargers to football
+Adding the Raiders to football
+Adding the Bengals to football
+Adding the Broncos to football
+Adding the Seahawks to football
+The Cowboys from Dallas is ranked 0 in football.
+Roster:
+Dak
+Ceedee
+Ezekial
+
+The Chargers from Los Angeles is ranked 0 in football.
+Roster:
+Justin
+Austin
+Keenan
+
+The Raiders from Las Vegas is ranked 0 in football.
+Roster:
+Derek
+Davante
+Josh
+
+The Bengals from Cincinnati is ranked 0 in football.
+Roster:
+Joe
+Ja'Maar
+Eli
+
+The Broncos from Denver is ranked 0 in football.
+Roster:
+Russell
+Jerry
+Bradley
+
+The Seahawks from Seattle is ranked 0 in football.
+Roster:
+D.K.
+Tyler
+Rashaad
+

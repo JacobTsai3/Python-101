@@ -1,4 +1,12 @@
 class Team:
+    # These variable initializations is what was causing
+    # the error with basketball teams being added to all
+    # of the Sports.
+    # players = []
+    # sport = ""
+    # city = ""
+    # rank = 0
+    # name = ""
 
     def __init__(self, players, sport, city, rank, name):
         self.players = players 
@@ -18,13 +26,13 @@ class Team:
         return print_string
 
     def addPlayer (self, player):
-        (self.players).append(player)  
+        self.players.append(player)  
     
     def listPlayers (self):
         print("players")
 
     def removePlayer (self, player):
-        (self.players).remove(player)
+        self.players.remove(player)
 
     def getRank (self):
         return self.rank
