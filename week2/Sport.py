@@ -1,5 +1,5 @@
 class Sport:
-
+    activity = "sport"
     #constructor function
     def __init__(self, ball_type, name, equipment):
         self.ball_type = ball_type 
