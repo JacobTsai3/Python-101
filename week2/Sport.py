@@ -1,18 +1,15 @@
 class Sport:
-    teams = [] # Empty list
-    ball_type = "" # Empty String
-    equipment = [] # Empty list
-    name = ""
 
     #constructor function
     def __init__(self, ball_type, name, equipment):
         self.ball_type = ball_type 
         self.name = name 
         self.equipment = equipment
+        self.teams = []
 
     #setter function
     def addTeam (self, team):
-        self.teams.append(team)
+        (self.teams).append(team)
 
     #function
     def listTeams (self):

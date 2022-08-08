@@ -1,9 +1,4 @@
 class Team:
-    name = ""
-    players = []
-    city = ""
-    rank = 0
-    sport = ""
 
     def __init__(self, players, sport, city, rank, name):
         self.players = players 
@@ -23,13 +18,13 @@ class Team:
         return print_string
 
     def addPlayer (self, player):
-        self.players.append(player)  
+        (self.players).append(player)  
     
     def listPlayers (self):
         print("players")
 
     def removePlayer (self, player):
-        self.players.remove(player)
+        (self.players).remove(player)
 
     def getRank (self):
         return self.rank
