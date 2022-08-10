@@ -23,44 +23,6 @@ def readData(sport_data_file):
             teams_data.append(row)
 
     return teams_data
-            
-
-
-baseball_teams_data = [ 
-                            [ ["Fernando", "Jurickson", "Juan"], "baseball", "San Diego", 0, "Padres"],
-                            [ ["Mookie", "Freddie", "Clayton"], "baseball", "Los Angeles", 0, "Dodgers"],
-                            [ ["Randy", "Brandon", "Yandy"], "baseball", "Tampa Bay", 0, "Rays"],
-                            [ ["Jorge", "Cedric", "Roughned"], "baseball", "Baltimore", 0, "Orioles"],
-                            [ ["Ronald", "Dansby", "Kenley"], "baseball", "Atlanta", 0, "Braves"],
-                            [ ["Aaron", "Gerrit", "Aroldis"], "baseball", "NY", 0, "Yankees"]
-                        ]
-
-soccer_teams_data = [ 
-                            [ ["Son", "Harry", "Pierre"], "soccer", "Tottenham", 0, "Hotspurs"],
-                            [ ["Kylian", "Lionel", "Neymar"], "soccer", "Paris Saint-Germain", 0, "FC"],
-                            [ ["Mohammed", "Virgil", "Joel"], "soccer", "Liverpool", 0, "FC"],
-                            [ ["Alphonso", "Sadio", "Noussair"], "soccer", "Bayern Munich", 0, "FC"],
-                            [ ["Bruno", "Christiano", "Marcus"], "soccer", "Manchester United", 0, "FC"],
-                            [ ["Erling", "Kevin", "Ilkay"], "soccer", "Manchester City", 0, "FC"]
-                        ]
-
-football_teams_data = [ 
-                            [ ["Dak", "Ceedee", "Ezekial"], "football", "Dallas", 0, "Cowboys"],
-                            [ ["Justin", "Austin", "Keenan"], "football", "Los Angeles", 0, "Chargers"],
-                            [ ["Derek", "Davante", "Josh"], "football", "Las Vegas", 0, "Raiders"],
-                            [ ["Joe", "Ja'Maar", "Eli"], "football", "Cincinnati", 0, "Bengals"],
-                            [ ["Russell", "Jerry", "Bradley"], "football", "Denver", 0, "Broncos"],
-                            [ ["D.K.", "Tyler", "Rashaad"], "football", "Seattle", 0, "Seahawks"]
-                        ]
-
-tennis_teams_data = [ 
-                            [ ["Duckworth", "Kygrios", "Minaur"], "tennis", "Australia", 0, "Team"],
-                            [ ["Medvedev", "Rublev", "Khachanov"], "tennis", "Russia", 0, "Team"],
-                            [ ["Fritz", "Opelka", "Tiafoe"], "tennis", "USA", 0, "Team"],
-                            [ ["Nadal", "Alcaraz", "Bautista"], "tennis", "Spain", 0, "Team"],
-                            [ ["Zverev", "Otte", "Altmaier"], "tennis", "Germany", 0, "Team"],
-                            [ ["Djokovic", "Kecmanovic", "Krajinovic"], "tennis", "Serbia", 0, "Team"]
-                        ]
 
 def setupSport(teams_data, sport):
     teams = []
@@ -69,6 +31,28 @@ def setupSport(teams_data, sport):
         # Team parameters: players, sport, city, rank, name
         players = []
         index = 4
+
+        # team_data = [basketball,Brooklyn,0,Nets,Kevin,Kyrie,Ben]
+        # len(team_data) = 7
+        # index = 4
+        # is index < len(team_data) --> is 4 < 7 --> TRUE
+            # team_data[index] == index[4] == "Kevin"
+            # players.append("Kevin")
+            # index = index + 1 --> index = 4 + 1 --> index = 5
+
+        # is index < len(team_data) --> is 5 < 7 --> TRUE
+            # team_data[index] == index[5] == "Kyrie"
+            # players.append("Kyrie")
+            # index = index + 1 --> index = 5 + 1 --> index = 6
+
+        # is index < len(team_data) --> is 6 < 7 --> TRUE
+            # team_data[index] == index[5] == "Ben"
+            # players.append("Ben")
+            # index = index + 1 --> index = 6 + 1 --> index = 7
+        
+        # is index < len(team_data) --> is 7 < 7 --> FALSE
+
+
         while(index < len(team_data)):
             players.append(team_data[index])
             index = index + 1
@@ -83,9 +67,13 @@ def setupSport(teams_data, sport):
     sport.listTeams()
 
 basketball_teams_data = readData('basketball.csv')
-setupSport(basketball_teams_data, basketball)
+baseball_teams_data = readData('baseball.csv')
+soccer_teams_data = readData('soccer.csv')
+tennis_teams_data = readData('tennis.csv')
+football_teams_data = readData('football.csv')
 
-# setupSport(baseball_teams_data, baseball)
-# setupSport(soccer_teams_data, soccer)
-# setupSport(tennis_teams_data, tennis)
-# setupSport(football_teams_data, football)
+setupSport(basketball_teams_data, basketball)
+setupSport(baseball_teams_data, baseball)
+setupSport(soccer_teams_data, soccer)
+setupSport(tennis_teams_data, tennis)
+setupSport(football_teams_data, football)
