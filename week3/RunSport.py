@@ -1,5 +1,6 @@
 from Sport import Sport
 from Team import Team
+import csv
 
 # Sport(ball_type, name, equipment)
 basketball = Sport("basketball", "Basketball", ["hoop", "backboard", "court", "shoes"])
@@ -8,14 +9,22 @@ tennis = Sport("tennis", "Tennis", ["racket", "tennis_shoes", "net", "tennis_cou
 soccer = Sport("soccer", "Soccer", ["soccer_cleats", "goal", "field", "shin_guards", "high_socks"])
 football = Sport("football", "Football", ["football_cleats", "field_goal", "field", "pads", "helmet"])
 
-basketball_teams_data = [ 
-                        [ ["Kevin", "Kyrie", "Ben"], "basketball", "Brooklyn", 0, "Nets"],
-                        [ ["Quentin", "Julius", "Jalen"], "basketball", "NY", 0, "Knicks"],
-                        [ ["LeBron", "Russell", "Anthony"], "basketball", "Los Angeles", 0, "Lakers"],
-                        [ ["Jalen", "Jabari", "Kevin"], "basketball", "Houston", 0, "Rockets"],
-                        [ ["Luka", "Boban", "Spencer"], "basketball", "Dallas", 0, "Mavericks"],
-                        [ ["Paolo", "Bol", "Mohamed"], "basketball", "Orlando", 0, "Magic"]
-                    ]
+# sport_data_file: 'basketball.csv' aka the file name
+# sport_data: the 'basketball.csv' file opened (aka the data within the file)
+# sport_reader: pointer into the 'basketball.csv' file that can access the actual data
+# row: the data on the line that sport_reader is pointing to
+
+def readData(sport_data_file):
+    with open(sport_data_file, newline='') as sport_data:
+        sport_reader = csv.reader(sport_data)
+        teams_data = []
+        for row in sport_reader:
+            # row: ['basketball', 'Brooklyn', '0', 'Nets', 'Kevin', 'Kyrie', 'Ben']
+            teams_data.append(row)
+
+    return teams_data
+            
+
 
 baseball_teams_data = [ 
                             [ ["Fernando", "Jurickson", "Juan"], "baseball", "San Diego", 0, "Padres"],
@@ -57,7 +66,14 @@ def setupSport(teams_data, sport):
     teams = []
 
     for team_data in teams_data:
-        new_team = Team(team_data[0], team_data[1], team_data[2], team_data[3], team_data[4])
+        # Team parameters: players, sport, city, rank, name
+        players = []
+        index = 4
+        while(index < len(team_data)):
+            players.append(team_data[index])
+            index = index + 1
+
+        new_team = Team(players, team_data[0], team_data[1], int(team_data[2]), team_data[3])
         teams.append(new_team)
 
     for team_object in teams:
@@ -66,8 +82,10 @@ def setupSport(teams_data, sport):
 
     sport.listTeams()
 
+basketball_teams_data = readData('basketball.csv')
 setupSport(basketball_teams_data, basketball)
-setupSport(baseball_teams_data, baseball)
-setupSport(soccer_teams_data, soccer)
-setupSport(tennis_teams_data, tennis)
-setupSport(football_teams_data, football)
+
+# setupSport(baseball_teams_data, baseball)
+# setupSport(soccer_teams_data, soccer)
+# setupSport(tennis_teams_data, tennis)
+# setupSport(football_teams_data, football)

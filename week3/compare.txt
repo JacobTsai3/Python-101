@@ -1,0 +1,19 @@
+Week 3 Terminal:
+[['basketball', 'Brooklyn', '0', 'Nets', 'Kevin', 'Kyrie', 'Ben'], 
+['basketball', 'NY', '0', 'Knicks', 'Quentin', 'Julius', 'Jalen]'], 
+['basketball', 'LosAngeles', '0', 'Lakers', 'LeBron', 'Russell', 'Anthony'], 
+['basketball', 'Houston', '0', 'Rockets', 'Jalen', 'Jabari', 'Kevin'], 
+['basketball', 'Dallas', '0', 'Mavericks', 'Luka', 'Boban', 'Spencer'], 
+['basketball', 'Orlando', '0', 'Magic', 'Paolo', 'Bol', 'Mohamed']]
+
+Week 2 Array:
+[ ["Kevin", "Kyrie", "Ben"], "basketball", "Brooklyn", 0, "Nets"],
+[ ["Quentin", "Julius", "Jalen"], "basketball", "NY", 0, "Knicks"],
+[ ["LeBron", "Russell", "Anthony"], "basketball", "Los Angeles", 0, "Lakers"],
+[ ["Jalen", "Jabari", "Kevin"], "basketball", "Houston", 0, "Rockets"],
+[ ["Luka", "Boban", "Spencer"], "basketball", "Dallas", 0, "Mavericks"],
+[ ["Paolo", "Bol", "Mohamed"], "basketball", "Orlando", 0, "Magic"]
+
+1. '0' vs 0
+2. Players at the end of the row
+3. Players are not in their own list 
