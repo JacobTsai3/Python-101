@@ -1,8 +1,7 @@
-[ 
-                            [ ["Dak", "Ceedee", "Ezekial"], "football", "Dallas", 0, "Cowboys"],
-                            [ ["Justin", "Austin", "Keenan"], "football", "Los Angeles", 0, "Chargers"],
-                            [ ["Derek", "Davante", "Josh"], "football", "Las Vegas", 0, "Raiders"],
-                            [ ["Joe", "Ja'Maar", "Eli"], "football", "Cincinnati", 0, "Bengals"],
-                            [ ["Russell", "Jerry", "Bradley"], "football", "Denver", 0, "Broncos"],
-                            [ ["D.K.", "Tyler", "Rashaad"], "football", "Seattle", 0, "Seahawks"]
-                        ]
+
+football,Dallas,0,Cowboys,Dak,Ceedee,Ezekial
+football,LosAngeles,0,Chargers,Justin,Austin,Keenan
+football,LasVegas,0,Raiders,Derek,Davante,Josh
+football,Cincinnati,0,Bengals,Joe,Ja'Maar,Eli
+football,Denver,0,Broncos,Joe,Ja'Maar,Eli
+football,Seattle,0,Seahawks,D.K.,Tyler,Rashaad
