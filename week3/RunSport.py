@@ -2,6 +2,8 @@ from Sport import Sport
 from Team import Team
 import csv
 
+debug = False
+
 # Sport(ball_type, name, equipment)
 basketball = Sport("basketball", "Basketball", ["hoop", "backboard", "court", "shoes"])
 baseball = Sport("baseball", "Baseball", ["bat", "mound", "bases", "mit", "cleats"])
@@ -26,6 +28,10 @@ def readData(sport_data_file):
 
 def setupSport(teams_data, sport):
     teams = []
+    if(debug):
+        print("Debug Statements:")
+        print("teams_data: ")
+        print(teams_data)
 
     for team_data in teams_data:
         # Team parameters: players, sport, city, rank, name
@@ -51,17 +57,33 @@ def setupSport(teams_data, sport):
             # index = index + 1 --> index = 6 + 1 --> index = 7
         
         # is index < len(team_data) --> is 7 < 7 --> FALSE
-
-
+        if(debug):
+            print("team_data: ")
+            print(team_data)
+        
         while(index < len(team_data)):
             players.append(team_data[index])
             index = index + 1
+
+        if(debug):
+            print("players:")
+            print(players)
+            print("team_data[0]:")
+            print(team_data[0])
+            print("team_data[1]:")
+            print(team_data[1])
+            print("team_data[2]:")
+            print(team_data[2])
+            print("team_data[3]:")
+            print(team_data[3])
+            print("End Debug Statements")
 
         new_team = Team(players, team_data[0], team_data[1], int(team_data[2]), team_data[3])
         teams.append(new_team)
 
     for team_object in teams:
-        print("Adding the " + team_object.getName() + " to " + team_object.getSport())
+        if(debug):
+            print("Adding the " + team_object.getName() + " to " + team_object.getSport())
         sport.addTeam(team_object)
 
     sport.listTeams()
