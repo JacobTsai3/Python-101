@@ -82,3 +82,42 @@ number_instructions = [1,3,2,1]
 line_of_letters = ['E','E','F','E','E','F','E','F','E','F','E','F','F','E','E','F','E']
 result = solve_line(number_instructions, line_of_letters)
 print(result)
+
+# Alternative
+def solve_line_alt(number_instructions, line_of_letters) :
+    line_of_letters_number_representation = []
+    counter = 0
+
+    # Loop through each letter in the line of letters
+    for letter in line_of_letters:
+        # If the letter we're on is an F
+        if letter == 'F':
+            # Increment the counter for that sequence
+            counter = counter + 1
+        # If the letter we're on is an E and the counter is greater than 0
+        # This means, there has been an F before this E
+        elif letter == 'E' and counter > 0:
+            # Store the filled in length in the array line_of_letters_number_representation
+            line_of_letters_number_representation.append(counter)
+            # Reset the counter because we've completed one set of filled squares
+            counter = 0
+    
+    # If the numerical representation you created is the same as the numerical representation that was passed in,
+    # line_of_letters_number_representation == number_instructions will equal to True
+    # Otherwise it will equal to False
+    # So return that comparison, which will return True or False
+    return line_of_letters_number_representation == number_instructions
+
+# A set of input that should be true:
+print("[Alt version] This should be true:")
+number_instructions = [1,3,2,1]
+line_of_letters = ['E','E','F','E','E','F','F','F','E','E','E','F','F','E','E','F','E']
+result = solve_line_alt(number_instructions, line_of_letters)
+print(result)
+
+# A set of input that should be false:
+print("[Alt version] This should be false:")
+number_instructions = [1,3,2,1]
+line_of_letters = ['E','E','F','E','E','F','E','F','E','F','E','F','F','E','E','F','E']
+result = solve_line_alt(number_instructions, line_of_letters)
+print(result)
